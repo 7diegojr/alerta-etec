@@ -1,0 +1,13 @@
+-- Configuração do Git
+git config --global user.name 7diegojr
+git config --global user.email dfsntsjunior@gmail.com
+
+-- Criação e execução do projeto
+npx create-expo-app@latest AlertaEtec --template blank-typescript@sdk-57
+npx expo start
+
+-- Alinhar dependências
+npm i
+npx expo install --fix
+npx expo-doctor
+
